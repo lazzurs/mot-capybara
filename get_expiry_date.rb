@@ -33,4 +33,4 @@ end
 
 puts session.find(:xpath, './/div[3]/div/ul/li[2]/span[2]', :match => :first).text
 
-//session.save_screenshot('screenshot.png', :full => true)
+#session.save_screenshot('screenshot.png', :full => true)
